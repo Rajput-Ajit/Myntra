@@ -1,0 +1,186 @@
+
+
+.navbar
+	{
+		height:80px;
+		width:100%;
+	}
+	
+.logo
+	{
+		height:100%;
+		width:5%;
+		float:left;
+	}
+.category-name
+	{
+		height:100%;
+		font-size:20px;
+		box-sizing:border-box;
+		float:left;
+		padding:2%;
+	}
+.search-bar
+	{
+		height:%;
+		background-color:#f2f2f2;
+		box-sizing:border-box;
+		float:left;
+		padding:1%;
+		margin-top:1%;
+	}
+.category-name-right
+	{
+		height:100%;
+		
+		box-sizing:border-box;
+		float:left;
+		padding:2%;
+	}	
+	
+
+.full-image
+	{
+		height:100%;
+		width:100%;
+		
+	}	
+.brands
+	{
+		height:100px;
+		width:98%;
+		float:left;
+		
+		padding:1%;
+		box-sizing:border-box;
+		
+	}	
+.product
+	{
+		height:375px;
+		width:16.2%;
+		margin:0.1%;
+		float:left;
+	}	
+.product-pic
+	{
+		height:70%;
+		width:100%;
+	}
+.name
+	{
+		height:10%;
+		width:100%;
+		text-align:center;
+		margin-top:5%;
+		font-size:18px;
+	}	
+.offer
+	{
+		height:10%;
+		width:100%;
+		text-align:center;
+		
+	}	
+.category
+	{
+		height:320px;
+		width:14%;
+		float:left;
+		margin:1%;
+		
+		background-size:100% 100%;
+	}
+.footer
+	{
+		height:;
+		width:100%;
+		background-color:#f2f2f2;
+		float:left;
+		padding-left:10%;
+		padding-right:10%;
+		padding-top:1%;
+		box-sizing:border-box;
+		
+	}	
+.in-footer
+	{
+		height:;
+		width:20%;
+		float:left;
+		margin:2%;
+	}	
+.store
+	{
+		height:;
+		width:65%;
+		background-color:black;
+		float:left;
+		margin:1%;
+		color:white;
+		padding:4%;
+		border-radius:10px;
+		font-size:20px;
+	}	
+.footer-searches
+	{
+		height:;
+		width:100%;
+		float:left;
+		
+	}
+#image
+	{
+		background-image: url("ethnicwear.jpg");
+	}	
+#image2
+	{
+		height:320px;
+		width:14%;
+		float:left;
+		margin:1%;
+		background-image: url("https://i.pinimg.com/736x/b2/08/7f/b2087f9040bc302cfb90b5eff59d8e7f.jpg");
+		background-size:100% 100%;
+	}	
+#image3
+	{
+		background-image: url("https://imgix.bustle.com/uploads/image/2021/5/6/977ac7d5-67d8-46bf-9761-f569d7e55bb2-untitled_17of68_2000x.jpg?w=1000&h=1278&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2");
+	}	
+#image4
+	{
+		background-image: url("https://i.pinimg.com/736x/f1/be/60/f1be608872cb56f30df7d252e3971562.jpg")
+	}
+#image5
+	{
+		background-image: url(https://stylevane.com/wp-content/uploads/2020/04/western-wear-for-women-75617.jpg);
+	}	
+#image6
+	{
+		background-image: url("https://i5.walmartimages.com/asr/3ac42fc3-ca33-429c-b48f-9679786b3d16_1.f3647e93ea755ec903bc201da2a6bc0a.jpeg");	
+	}	
+
+.font
+	{
+		height:35%;
+		width:100%;
+		background-color:red;
+		
+		opacity:0.8;
+		color:white;
+		margin-top:100%;
+		float:left;
+		text-align:center;
+	}
+.wear
+	{
+		font-size:28px;
+		
+	}
+.off
+	{
+		font-size:32px;
+	}	
+.shop-now
+	{
+		font-size:27px;
+	}

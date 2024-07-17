@@ -1,0 +1,578 @@
+<! DOCTYPE HTML>
+	<html>
+		<head>
+			<link rel="icon" href="myntralogo.png">
+			<link rel="stylesheet" href="myntra.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+			<title>
+				Myntra
+			</title>
+			<style>
+				div .offer
+					{
+						font-size:20px;
+						font-weight:bold;
+					}
+				div + .brands
+					{
+						font-size:34px;
+						margin-top:2%;
+					}
+				.category-name-right i
+					{
+						font-size:26px;
+					}
+				.category-name-right + i	
+					{
+						color:red;
+					}
+				div ~ p
+					{
+						color:red;
+					}
+					
+				.in-footer i
+					{font-size:25px;}
+					
+				.in-footer > p
+					{color:gray;}
+					
+				
+				.footer-searches span
+					{
+						margin-right:10%;
+						color:black;
+						font-size:18px;
+					}
+				div a
+					{
+						text-decoration:none;
+						color:blue;
+					}
+					
+					
+				#pic
+					{
+						height:320px;
+						background-size:100% 100%;
+						width:14%;
+					}
+				.slider
+					{
+						height:10px;
+						width:100%;
+						background:;
+						float:left;
+					}
+				.d-flex
+					{
+						display:flex;
+						justify-content:center;
+						
+					}
+				#jsclick
+					{
+						height:450px;
+						width:95%;
+						background-color:green;
+						margin:2%;
+						float:left;
+					}	
+								
+				.click
+					{
+							height:10px;
+							width:10px;
+							background:gray;
+							border-radius:50%;
+							margin-left:1%;
+							margin-right:1%;
+					}
+				.click:hover
+					{
+						background:black;
+					}
+			</style>
+		</head>
+		<body>
+			<div class="navbar">
+				<img src="myntralogo.png" class="logo">
+				<div class="category-name">
+					Men
+				</div>
+				<div class="category-name">
+					Women
+				</div>
+				<div class="category-name">
+					Kids
+				</div>
+				<div class="category-name">
+					Home & Living
+				</div>
+				<div class="category-name">
+					Beauty
+				</div>
+				<div class="category-name">
+					Studio
+				</div>
+				<div class="search-bar">
+					<i class="fa-solid fa-magnifying-glass"></i>
+					search for products,brands and more
+				</div>
+				<div class="category-name-right">
+					<i class="fa-solid fa-user"></i>
+					<span>profile</span>
+				</div>
+				<div class="category-name-right">
+					<i class="fa-regular fa-heart"></i>
+					</span>wishlist</span>
+				</div>
+				<div class="category-name-right">
+					<i class="fa-solid fa-bag-shopping"></i>
+					<span>Bag</span>
+				</div>
+			</div>
+			<div id="jsclick">
+				<img id="uniqimage" src="https://cdn.grabon.in/gograbon/images/merchant/1577256263914.png" class="full-image">
+			</div>
+			<div class="slider">
+				<div class="d-flex">
+					<div class="click" type="button" onclick="document.getElementById('uniqimage') .src = 'https://cdn.grabon.in/gograbon/images/merchant/1577256263914.png' ">
+					</div>
+					
+					<div class="click" type="button" onclick="document.getElementById('uniqimage') .src = 'https://cdn.flipshope.com/blog/wp-content/uploads/2022/03/Myntra-Fashion-Haul-Sale.jpg' ">
+					</div>
+					<div class="click" type="button" onclick="document.getElementById('uniqimage') .src = 'https://res-1.cloudinary.com/linkisin/image/upload/v1684769035/zingoy/SEO/Myntra-EndOfReasonSale-Zingoy-Occasion-SEO-22May2023.jpg' ">
+					</div>
+					
+					<div class="click" type="button" onclick="document.getElementById('uniqimage') .src = 'https://image.ibb.co/i8rmh5/myntra.jpg' ">
+					</div>
+				</div>	
+			</div>
+	<!-- products 1 -->
+			<div class="brands">
+				MEDAL WORTHY BRANDS TO BAG
+			</div>
+			<div class="product">
+				<img src="personalcare.jpg" class="product-pic">
+				<div class="name">
+					Cruetly-Free Personal Care
+				</div>
+				<div class="offer">
+					BUY1,GET1FREE	
+				</div>
+			</div>
+			<div class="product">
+				<img src="footwear.jpg" class="product-pic">
+				<div class="name">
+					Trending Footwear
+				</div>
+				<div class="offer">
+					STARTING <del>₹1999</del> ₹999
+				</div>
+			</div>
+			<div class="product">
+				<img src="casual.jpg" class="product-pic">
+				<div class="name">
+					Bestselling casual
+				</div>
+				<div class="offer">
+					MIN. 40%OFF
+				</div>
+			</div>
+			<div class="product">
+				<img src="ethnic.jpg" class="product-pic">
+				<div class="name">
+					Must-Have Ethnic Wear
+				</div>
+				<div class="offer">
+					FLAT 65% OFF
+				</div>
+			</div>	
+			<div class="product">
+				<img src="saree.jpg" class="product-pic">
+				<div class="name">
+					Stylish Collection Saree's
+				</div>
+				<div class="offer">
+					UNDER ₹699
+				</div>
+			</div>
+			<div class="product">
+				<img src="trollybags.png" class="product-pic">
+				<div class="name">
+					Trolley Bags
+				</div>
+				<div class="offer">
+					STARTING ₹999
+				</div>
+			</div>
+	<!-- products 2 -->
+			<div class="brands">
+				GRAND GLOBAL BRANDS
+			</div>
+			<div class="product">
+				<img src="mangofootwear.jpg" class="product-pic">
+				<div class="name">
+					Stunning Footwear
+				</div>
+				<div class="offer">
+					UP TO 60% OFF
+				</div>
+			</div>
+			<div class="product">
+				<img src="sneakers.jpg" class="product-pic">
+				<div class="name">
+					Sneakers & More
+				</div>
+				<div class="offer">
+					MIN. 40% OFF
+				</div>
+			</div>
+			<div class="product">
+				<img src="everydaywear.jpg" class="product-pic">
+				<div class="name">
+					Everyday Wear
+				</div>
+				<div class="offer">
+					UP TO 70% OFF
+				</div>
+			</div>
+			<div class="product">
+				<img src="metro.jpg" class="product-pic">
+				<div class="name">
+					Trending Footwear
+				</div>
+				<div class="offer">
+					Starting  ₹799
+				</div>
+			</div>
+			<div class="product">
+				<img src="foot.jpg" class="product-pic">
+				<div class="name">
+					Stylish Footwear
+				</div>
+				<div class="offer">
+					Starting  ₹799
+				</div>
+			</div>
+			<div class="product">
+				<img src="woodland.jpg" class="product-pic">
+				<div class="name">
+					Sturdy Kicks
+				</div>
+				<div class="offer">
+					MIN. 30% OFF
+				</div>
+			</div>
+			<div class="brands">
+				SHOP BY CATEGORY
+			</div>
+	<!-- CATEGORY images -->
+				<div class="category" id="pic">
+					<div class="font">
+						<div class="wear">
+							Ethinc Wear
+						</div>
+						<div class="off">
+							50-80% off
+						</div>
+						<div class="shop-now">
+							Shop now
+						</div>
+					</div>
+				</div>
+				<div class="category" id="image2">
+					<div class="font">
+						<div class="wear">
+							Casual Wear
+						</div>
+						<div class="off">
+							40-80% off
+						</div>
+						<div class="shop-now">
+							Shop now
+						</div>
+					</div>
+				</div>
+				<div class="category" id="image3">
+					<div class="font">
+						<div class="wear">
+							Activewear
+						</div>
+						<div class="off">
+							30-70% off
+						</div>
+						<div class="shop-now">
+							Shop now
+						</div>
+					</div>
+				</div>
+				<div class="category" id="image4">
+					<div class="font">
+						<div class="wear">
+							Activewear
+						</div>
+						<div class="off">
+							30-70% off
+						</div>
+						<div class="shop-now">
+							Shop now
+						</div>
+					</div>
+				</div>
+				<div class="category" id="image5">
+					<div class="font">
+						<div class="wear">
+							Western wear
+						</div>
+						<div class="off">
+							30-70% off
+						</div>
+						<div class="shop-now">
+							Shop now
+						</div>
+					</div>
+				</div>
+				<div class="category" id="image6">
+					<div class="font">
+						<div class="wear">
+							Kids Wear
+						</div>
+						<div class="off">
+							50-70% off
+						</div>
+						<div class="shop-now">
+							Shop now
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				<div class="category">
+					<img src="img6.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img7.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img8.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img9.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img10.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img11.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img12.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img13.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img14.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img15.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img16.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img17.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img18.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img19.png" class="full-image">
+				</div><div class="category">
+					<img src="img20.png" class="full-image">
+				</div>
+				<div class="category">
+					<img src="img21.png" class="full-image">
+				</div>
+	<!-- footer -->
+			<div class="footer">
+				<div class="in-footer">
+					<h5>
+						ONLINE SHOPPING
+					</h5>
+					<p>
+						Men
+					</p>
+					<p>
+						Women
+					</p>
+					<p>
+						Kids
+					</p>
+					<p>
+						Home & Living
+					</p>
+					<p>
+						Beauty
+					</p>
+					<p>
+						Gift Cards
+					</p>
+					<p>
+						Myntra Insider
+					</p>
+					<h5>
+						USEFUL LINKS
+					</h5>
+					<p>
+						Blog
+					</p>
+					<p>
+						Career
+					</p>
+					<p>
+						Site Map
+					</p>
+					<p>
+						Corporate Information
+					</p>
+					<p>
+						Whitehat
+					</p>
+				</div>
+				<div class="in-footer">
+					<h5>
+						CUSTOMER POLICIES
+					</h5>
+					<p>
+						Contact US
+					</p>
+					<p>
+						FAQ
+					</p>
+					<p>
+						T&C
+					</p>
+					<p>
+						Terms Of USe
+					</p>
+					<p>
+						Track Order
+					</p>
+					<p>
+						Shipping
+					</p>
+					<p>
+						Cancellation
+					</p>
+					<p>
+						Returns
+					</p>
+					<p>
+						Privacy Policy
+					</p>
+					<p>
+						Grievance Policy
+					</p>
+				</div>
+				<div class="in-footer">
+					<h5>
+						EXPERIENCCE MYNTA APP ON MOBILE
+					</h5>
+					<div class="store">
+						<i class="fa-brands fa-google-play"></i>
+						Google Play
+					</div>
+					<div class="store">
+						<i class="fa-brands fa-apple"></i>
+						App Store
+					</div>
+					<br><br><br><br><br><br>
+					<h5>
+						KEEP IN TOUCH
+					</h5>
+					<h5>
+						<i class="fa-brands fa-facebook"></i>
+						<i class="fa-brands fa-twitter"></i>
+						<i class="fa-brands fa-youtube"></i>
+						<i class="fa-brands fa-instagram"></i>
+					</h5>
+				</div>	
+				<div class="in-footer">
+					<h5>
+						<i class="fa-solid fa-award"></i>
+						100% ORIGINAL guarantee for all products at myntra.com
+					</h5>
+					<h5>
+						<i class="fa-solid fa-repeat"></i>
+						Return within 14days of receiving your order
+					</h5>	
+				</div>
+				<div class="footer-searches">
+					<h5>
+						POPULAR SEARCHES
+					</h5>
+						Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men | Handbags | Ladies Watches | Bags |
+						Sport Shoes | Reebok Shoes | Puma Shoes | Boxers | Wallets | Tops | Earrings | Fastrack Watches | Kurtis | Nike | Smart Watches |
+						Titan Watches | Designer Blouse | Gowns | Rings | Cricket Shoes | Forever 21 | Eye Makeup | Photo Frames | Punjabi Suits | Bikini  
+						Myntra Fashion Show | Lipstick | Saree | Watches | Dresses | Lehenga | Nike Shoes | Goggles | Bras | Suit | Chinos | Shoes | Adidas Shoes |
+						Woodland Shoes | Jewellery | Designers Sarees
+					<p>
+						<span>
+							In Case Of Any Concern, 
+							<a href="">
+							Contact US
+							</a>
+						</span>
+						<span>
+							© 2024 www.myntra.com. All rights reserved.
+						</span>
+						<span>
+							A Flipkart company
+						</span>
+					</p>
+					<hr>
+				</div>
+				<div class="footer-searches">
+					<h5>
+						Registered Office Address
+					</h5>
+						Buildings Alyssa,<br>
+						Begonia and Clover situated in Embassy Tech Village,<br>
+						Outer Ring Road,<br>
+						Devarabeesanahalli Village,<br>
+						Varthur Hobli,<br>
+						Bengaluru – 560103, India
+					<hr>
+				</div>	
+				<div class="footer-searches">
+					<h5>
+						BEST ONLINE SHOPPING SITE IN INDIA FOR FASHION	
+					</h5>
+					<p>
+						Be it clothing, footwear or accessories, Myntra offers you the ideal combination of fashion and functionality for men, women and kids. You will realise that the sky is the limit when it comes 
+						to the types of outfits that you can purchase for different occasions.
+					</p>
+					<ol type="1">
+						<li>
+							Smart men’s clothing - At Myntra you will find myriad options in smart formal shirts and trousers, cool T-shirts and jeans, or kurta and pyjama combinations for men. Wear your attitude with printed T-shirts. Create the back-to-campus vibe with varsity T-shirts and distressed jeans. Be it gingham, buffalo, or window-pane style, checked shirts are unbeatably smart. Team them up with chinos, cuffed jeans or cropped trousers for a smart casual look. Opt for a stylish layered look with biker jackets. Head out in cloudy weather with courage in water-resistant jackets. Browse through our innerwear section to
+							find supportive garments which would keep you confident in any outfit.
+						</li>
+						<br>
+						<li>
+							Trendy women’s clothing - Online shopping for women at Myntra is a mood-elevating experience. Look hip and stay comfortable with chinos and printed shorts this summer. Look hot on your date dressed in a little black dress, or opt for red dresses for a sassy vibe. Striped dresses and T-shirts represent the classic spirit of nautical fashion. Choose your favourites from among Bardot, off-shoulder, shirt-style, blouson, embroidered and peplum tops, to name a few. Team them up with skinny-fit jeans, skirts or palazzos. Kurtis and jeans make the perfect fusion-wear combination for the cool urbanite. Our grand sarees and lehenga-choli selections are perfect to make an impression at big social events such as weddings.
+							Our salwar-kameez sets, kurtas and Patiala suits make comfortable options for regular wear.
+						</li>
+						<br>
+						<li>
+							Fashionable footwear - While clothes maketh the man, the type of footwear you wear reflects your personality. We bring you an exhaustive lineup of options in casual shoes for men, such as sneakers and loafers. Make a power statement at work dressed in brogues and oxfords. Practice for your marathon with running shoes for men and women. Choose shoes for individual games such as tennis, football, basketball, and the like. Or step into the casual style and comfort offered by sandals, sliders, and flip-flops. Explore our lineup of fashionable footwear for ladies, including pumps, heeled boots, wedge-heels, and pencil-heels.
+							Or enjoy the best of comfort and style with embellished and metallic flats.
+						</li>
+					</ol>
+				</div>	
+			</div>
+		</body>
+	</html>
